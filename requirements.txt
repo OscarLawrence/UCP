@@ -1,0 +1,18 @@
+# UCP - Ultra-Compressed Communication Protocol
+# Pure Python implementation - minimal dependencies
+
+# Core functionality (no external dependencies required)
+# UCP is designed to be dependency-free for maximum portability
+
+# Optional development dependencies (install with: pip install -r requirements-dev.txt)
+# pytest>=6.0
+# black>=21.0  
+# flake8>=3.8
+# mypy>=0.910
+
+# Optional performance enhancements
+# numpy>=1.20.0  # For advanced pattern matching (optional)
+# scipy>=1.7.0   # For similarity calculations (optional)
+
+# The core UCP system runs with Python 3.8+ standard library only
+# This ensures maximum compatibility and deployment flexibility

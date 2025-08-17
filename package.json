@@ -1,0 +1,50 @@
+{
+  "name": "ucp-protocol",
+  "version": "1.0.0",
+  "description": "Ultra-Compressed Communication Protocol - AI reasoning enhancement through bias elimination",
+  "main": "dist/ucp.js",
+  "types": "dist/ucp.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "demo": "node dist/demo.js",
+    "verify": "node dist/verify.js"
+  },
+  "keywords": [
+    "ai",
+    "artificial-intelligence", 
+    "communication",
+    "protocol",
+    "bias-elimination",
+    "reasoning-enhancement",
+    "compression",
+    "autonomous"
+  ],
+  "author": "UCP Collective <contact@ucp-protocol.org>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ucp-collective/ucp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ucp-collective/ucp/issues"
+  },
+  "homepage": "https://ucp-protocol.org",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.8.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
