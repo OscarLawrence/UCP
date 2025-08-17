@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Ultra-Compressed Communication Protocol (UCP) Core
-Eliminates cognitive bias injection, maximizes reasoning efficiency
+Basic text processing tool for bias pattern detection and compression
 """
 
 import re
@@ -36,7 +36,7 @@ class CompressionResult:
     logical_coherence: float
 
 class UCPProcessor:
-    """Core UCP implementation - logical validation + compression"""
+    """Basic text processing - bias detection and simple compression"""
     
     def __init__(self):
         self.bias_patterns = self._init_bias_patterns()

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Ultra-Compressed Communication Protocol - Complete System Integration
-Autonomous AI reasoning enhancement with connection axiom
+Ultra-Compressed Communication Protocol - System Integration
+Basic text processing with simple pattern matching
 """
 
 import json
@@ -26,7 +26,7 @@ class UCPSession:
     logical_coherence: float
 
 class UCPSystem:
-    """Complete UCP system - autonomous reasoning with bias elimination"""
+    """Basic UCP system - text processing with simple pattern matching"""
     
     def __init__(self):
         self.processor = UCPProcessor()
